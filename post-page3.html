@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Headder-->
+    <header>
+        <!-- Nav-->
+        <div class="nav container">
+            <!--Logo-->
+            <a href="index.html" class="logo">JO <span>Blog</span></a>
+            <!-- Login Btn-->
+            <a href="" class="login">Login</a>
+        </div>
+      
+    </header>   
+   
+    <!-- Post content-->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!--Back to home-->
+            <a href="index.html" class="back-home">Back To Home</a>
+            <!--Title-->
+            <h1 class="header-title">Anatomie d'un document HTML ?</h1>
+            <!--Post Image-->
+            <img src="doc.png" alt="" class="header-img">
+
+        </div>
+        
+    </section>
+
+    <!--Posts-->
+    <section class="Post-content post-container">
+        <h2 class="sub-heading">Anatomie d'un document HTML ?</h2>
+        <p class="post-text">
+            Les éléments HTML basiques ne sont pas très utiles si on les prend séparément. Nous allons voir comment combiner des éléments individuels pour former une page HTML entière :
+
+        </p>
+        <p class="post-text">
+            Ici, nous avons : <br>
+            <ol>
+                <li> <strong>&lt;!DOCTYPE html&gt;</strong> : le type de document. Quand HTML était jeune (vers 1991/2), les doctypes étaient censés agir comme des liens vers un ensemble de règles que la page HTML devait suivre pour être considérée comme un bon HTML, ce qui pouvait signifier la vérification automatique des erreurs et d'autres choses utiles. Cependant, de nos jours personne ne se soucie vraiment d'eux, et ils sont juste un artefact historique qui doit être inclus pour que tout fonctionne bien. <code><!DOCTYPE html></code>  est la chaîne de caractères la plus courte qui soit un doctype valide. C'est tout ce que vous avez vraiment besoin de savoir.</li> <br>
+                <li> <strong>&lt;html&gt;&lt;/html&gt;</strong> : l'élément &lt;html&gt; . Cet élément est le contenant de tout le code de la page et est parfois connu comme l'élément racine.</li><br>
+                <li> <strong>&lt;head&gt;&lt;/head&gt;</strong>  : l'élément &lt;<head>&gt; . Cet élément a le rôle de conteneur pour toute chose que vous souhaitez inclure dans la page HTML qui ne soit pas du contenu à afficher aux visiteurs de la page : mots clés, description de page que vous souhaitez voir apparaître dans les résultats de recherche, style CSS, déclarations de jeu de caractères et plus encore. Nous vous en dirons plus à ce sujet dans l'article suivant de la série.</li><br>
+                <li> <strong>&lt;meta charset="utf-8"&gt;</strong>   : cet élément définit que le jeu de caractères à utiliser pour votre document est UTF-8. Ce jeu comporte la quasi‑totalité des caractères de toutes les écritures de langues humaines connues. Actuellement, il peut pour l'essentiel gérer tout contenu textuel que vous y pourriez mettre. Il n'y a aucune raison de ne pas définir cela et il peut permettre d'éviter certains problèmes plus tard.</li><br>
+                <li> <strong>&lt;title&gt;&lt;/title&gt;</strong>   : l'élément &lt;title&gt;. Il définit le titre de la page, celui qui s'affiche dans l'onglet du navigateur dans lequel la page est chargée et qui est utilisé pour décrire la page lorsque vous la marquez ou l'ajoutez aux favoris..</li><br>
+                <li> <strong>&lt;body&gt;&lt;/body&gt;</strong>  : l'élément &lt;body&gt; .  Il contient tout le contenu que vous souhaitez afficher aux internautes lorsqu'ils visitent votre page, que ce soit du texte, des images, des vidéos, des jeux, des pistes audio jouables ou autre.</li><br>
+
+           
+            </ol>
+
+            
+        </p>
+
+    </section>
+    <!--Footer-->
+    <div class="footer container">
+        <p>&#169; carpoolvenom All Right Reserved</p>
+        <div class="social">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+
+
+        </div>
+
+    </div>
+
+
+   
+</body>
+</html>
